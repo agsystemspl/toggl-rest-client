@@ -1,6 +1,6 @@
 <?php
 
-namespace AGSystems\REST\Toggl;
+namespace AGSystems\Toggl\REST;
 
 use AGSystems\REST\AbstractClient;
 
