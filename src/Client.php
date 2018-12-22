@@ -13,7 +13,7 @@ class Client extends AbstractClient
         $this->accessToken = $accessToken;
     }
 
-    protected function withOptions()
+    protected function clientOptions()
     {
         return [
             'base_uri' => 'https://www.toggl.com/api/v8/',
